@@ -11,11 +11,13 @@ color:#FD6E0A;
 /* nav related styles */
 nav{
     display: flex;
-   justify-content: space-between; 
+   justify-content: space-between;
+   align-items: center; 
+   margin: 0px 200px;
+} 
+   /* header related styles */
+
    
-   
-align-items: center; 
-}
 .nav-title{
     color: var(--Dark-01, #181818);
 font-size: 45px;
@@ -24,20 +26,22 @@ font-size: 45px;
 nav>ul{
 display: flex;
 align-items: center;
-
-
-
 }
+
 nav li{
 list-style: none;
 margin-right: 50px;
-f
+
 
 }
 Nav a{
 text-decoration: none;
     color:#474747;
 }
+.header{
+    background-color:  #FFF8F3;
+}
+
 .btn-primary{
 
     border-radius: 5px;
@@ -47,4 +51,13 @@ font-size: 20px;
 color: white;
 font-weight: 700;
 padding: 15px 35px;
+}
+.banner{
+ padding: 30px 30px 30px 150px;  
+ display: flex;
+ align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+    position:static;
 }
